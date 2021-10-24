@@ -51,5 +51,5 @@ public class Reservation implements Serializable {
     @OneToOne(cascade = {CascadeType.REMOVE},mappedBy="reservation")
     @JsonIgnoreProperties("reservation")
     private Score score;
-
+    
 }
