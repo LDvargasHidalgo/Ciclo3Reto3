@@ -82,6 +82,11 @@ public class CloudService {
                 if(cloud.getMessages()!=null){
                     existCloud.get().setMessages(cloud.getMessages());
                 }
+                
+                 if(cloud.getYear()!=null){
+                    existCloud.get().setYear(cloud.getYear());
+                }
+                
                 if(cloud.getReservations()!=null){
                     existCloud.get().setReservations(cloud.getReservations());
                 }
