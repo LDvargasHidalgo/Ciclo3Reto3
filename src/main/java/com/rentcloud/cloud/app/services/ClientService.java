@@ -76,6 +76,9 @@ public class ClientService {
                 if(client.getMessages()!=null){
                     existClient.get().setMessages(client.getMessages());
                 }
+                if(client.getAge()!=null){
+                    existClient.get().setAge(client.getAge());
+                }
                 if(client.getPassword()!=null){
                     existClient.get().setPassword(client.getPassword());
                 }
