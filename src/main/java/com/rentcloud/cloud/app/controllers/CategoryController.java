@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("Category")
+@CrossOrigin(origins = "*")
 public class CategoryController {
     
     

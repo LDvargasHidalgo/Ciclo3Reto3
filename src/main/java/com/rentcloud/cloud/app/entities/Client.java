@@ -37,7 +37,7 @@ public class Client implements Serializable {
     @Column(length=45)
     private String name;
     private Integer age;
-    
+   
     @OneToMany(cascade = {CascadeType.PERSIST},mappedBy="client")
     @JsonIgnoreProperties("client")
     public List<Message>messages;
